@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_about_companies",
+  "info": {
+    "displayName": "About Company"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "blocks",
+      "required": true
+    },
+    "features": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

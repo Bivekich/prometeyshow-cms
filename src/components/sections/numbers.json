@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_numbers",
+  "info": {
+    "displayName": "Numbers"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

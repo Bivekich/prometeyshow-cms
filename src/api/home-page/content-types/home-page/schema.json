@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.video-banner"
+    },
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.about-company"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.services"
+    },
+    "Stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.numbers"
+    },
+    "Events": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.events"
+    }
+  }
+}
